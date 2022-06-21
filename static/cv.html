@@ -1,0 +1,685 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>CV</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="fe1357d6-725d-4651-96e2-95e07f78742f" class="page sans"><header><h1 class="page-title">CV</h1></header><div class="page-body"><p id="93b2a57a-b0cd-4484-976c-9615ca8ca884" class="">Dmitry Shalashov</p><p id="7d9c3315-4e69-45a4-84e9-1d0f22297cc5" class="">Startup co-founder &amp; CTO / wannabe Go/Rust developer</p><p id="e4fa3578-96a4-435f-b047-f4a5af54deea" class="">
+</p><p id="3ab5dbe4-4e6b-4348-9375-792f92b9d0c7" class="">telegram @beeblebrox</p><p id="f79d9e84-61f0-498f-9d6e-b0e06b2ebd2f" class="">skaurus@gmail.com</p><p id="beafc470-9f2c-4353-b4bd-9c2aab70fa2c" class="">phone +7 985 218 4242</p><p id="ec4cd218-41e1-4a9b-8d41-3a9ad09298e3" class=""><a href="https://www.linkedin.com/in/skaurus/">https://www.linkedin.com/in/skaurus/</a></p><p id="f3b1bc1a-2d16-41f0-ac5d-a9bb1cec61b0" class="">
+</p><p id="6aab079a-5164-4106-9dd0-c2db89f2e2a7" class="">Involved, hands-on, informal, like to leave everything better than it was, enjoy helping people and love finding optimal technical decisions.</p><p id="8f143fee-a001-4a6c-8641-406ca0e2248e" class="">As a contributor, I can design and ship new complex features, creating new revenue streams for the company from scratch. As a leader, I care about the people and am humble, empathic, patient, and kind. My goal is to teach and then not get in the way.</p><p id="bc0a0c62-7193-42f9-a681-baed082413da" class="">Created a great team at my startup and led it until an acquisition and beyond that. I ended up managing a team of about 70 people, but I felt more in my place managing 5-10 and writing code.</p><p id="cb1165b2-d7df-4103-af2f-fb65e90f52c3" class="">I’d like to go back to that level (developer or a team lead), and also learn new skills. Right now my main language is Perl, so it is a little rusty 🙂</p><p id="2aca74c3-dce7-48ed-bc55-75370136f4c0" class="">
+</p><h3 id="3265ea66-7e09-4016-8bdc-d0656acb5380" class=""><strong>Experience</strong></h3><p id="59ce0733-4f93-41d7-92c2-39d12b971b0f" class=""><strong>CTO</strong></p><p id="9e283ee5-76be-4fc9-835e-96f57357af98" class="">Recsystems division of VK Group (former <a href="http://Mail.Ru">Mail.Ru</a> Group)</p><p id="214a6dfa-7279-4c5b-bc84-cf90e70ad2e9" class="">Jun 2019 - current time</p><p id="540ee55d-45b9-4b9b-91a6-f8e7091c362a" class="">To be precise, Recsystems in the context of VK means Relap.io, <a href="http://Pulse.Mail.Ru">Pulse.Mail.Ru</a> (Yandex.Zen rival), and Mediaprojects divisions of VK.</p><p id="4459c7ec-6480-4845-a259-72b51ca06aca" class="">Pulse.Mail.Ru was transferred to our team management as part of the acquisition of Relap.io by VK, and Mediaprojects joined us two years later.</p><p id="f84bb9f8-2595-480e-99dc-e6530016423b" class="">The size of my team initially doubled, and then grew even more, and my responsibilities changed drastically, from an acting coach to a proper manager. It wasn&#x27;t easy.</p><p id="cca077ad-2e53-4164-801a-13c6dd20896b" class="">They included:</p><ul id="decc6855-7a62-4622-9d88-02035850aea5" class="bulleted-list"><li style="list-style-type:disc">building processes like review 360</li></ul><ul id="cb0e22d6-be21-4e66-a20a-c27f23dd6af5" class="bulleted-list"><li style="list-style-type:disc">building relationships between people and teams</li></ul><ul id="e40d037f-1d0c-4745-9cee-5e183ff8ef0c" class="bulleted-list"><li style="list-style-type:disc">a lot of negotiations - between projects, with other VK divisions, external suppliers</li></ul><ul id="a77954cd-eaa1-483d-93ea-4d1e21731919" class="bulleted-list"><li style="list-style-type:disc">growth of my reports</li></ul><ul id="7d8a90ec-679b-4ba6-bd26-ffca5f630c29" class="bulleted-list"><li style="list-style-type:disc">salary and hardware budgeting</li></ul><ul id="90606e56-5e21-42bf-9e62-6b79d4a1a128" class="bulleted-list"><li style="list-style-type:disc">finding resources</li></ul><ul id="9b0a6b6f-e814-41f1-b9df-327d364c9b24" class="bulleted-list"><li style="list-style-type:disc">just a general problem-solving</li></ul><ul id="3b7c2548-b3a8-4ab7-8572-ea91cd5cd7ff" class="bulleted-list"><li style="list-style-type:disc">also, I architectured a new ad type that required integration between three services, with revenue of tens of thousands of dollars per month</li></ul><p id="283d294f-e33a-4cd4-96bb-70fc80a1ef43" class="">I did mostly fine, but it was not fun at all.</p><p id="784e15d2-b05f-4296-9447-266bb1da1d43" class="">Relap and Pulse both multiplied their traffic and revenue a few times over. For Mediaprojects, it is too early to say.</p><p id="21e3441d-d91c-442b-abfa-37165bd78166" class="">
+</p><p id="819236d3-c87c-4156-a5f4-d8226452b136" class=""><strong>CTO</strong></p><p id="7584b7bd-a85b-4dfe-8fa0-68175beee9c6" class="">Surfingbird</p><p id="48926fe2-7687-4ba4-aded-ba06bb4854dd" class="">Mar 2011 - Jun 2019</p><p id="123a8bca-8e43-40fb-afb3-4203a94db3a5" class="">Surfingbird was our first project. It was a personal recommendation system, like StumbleUpon. In 2014 we created a side project - Relap, a recommendation system for publishers, like Taboola. This project took off like a hockey stick and since then we worked only on it.</p><p id="6a872b02-2592-4e5a-b0b7-e4f4168f03a9" class="">Both projects were fun to work on, significantly because we had to solve technical challenges using very modest resources.</p><p id="c2da8406-5c80-4ba1-af9b-4050b546723d" class="">Relap took most of the Russian market share, and successfully fought off rivals like Taboola, Outbrain, Plista, Giraffe, Mail.Ru, and Yandex.</p><p id="de014aae-9be0-426c-a07e-9cf95b80094e" class="">I’m especially proud of the great team retention and working atmosphere.</p><p id="549c2455-f585-446d-8685-036d2a0ce033" class="">Surfingbird was featured in <a href="https://www.forbes.ru/tehnologii/internet-i-svyaz/233917-kak-russkie-programmisty-prevratili-internet-serfing-v-razvlechen">Russian Forbes</a> (I’m on the right), <a href="https://www.kommersant.ru/doc/1816958">Kommersant’s “The Firm&#x27;s Secret”</a> (Kommersant is one of Russia&#x27;s leading business newspapers) and other online outlets, and got a grant from Startup Fellows (Pavel Durov &amp; Yuri Milner).</p><p id="c417050d-9140-4bf9-9419-872fcee6e366" class="">Relap was named one of the 100 hottest European startups by <a href="https://www.wired.co.uk/article/100-hottest-european-startups-2015-moscow">Wired in 2015</a>. </p><p id="a9ab828f-1339-4761-989e-df37e5c6fa04" class="">In the end, it was acquired by <a href="http://Mail.Ru">Mail.Ru</a> Group (now VK) where the management was obligated to work for 3 more years.</p><ul id="9cd0156a-0205-46f8-a14d-946f1e6aabfa" class="bulleted-list"><li style="list-style-type:disc">under my leadership, we created the biggest native ad platform in Russia on a couple of dozens of servers, which also generated billions of content recommendations per month</li></ul><p id="0c6ce8e5-0a49-4c7d-bba4-f98b75c08f90" class="">I personally:</p><ul id="2b20d881-5656-4b9e-8462-a86ca332bead" class="bulleted-list"><li style="list-style-type:disc">made video ad platform from scratch with revenues of tens of thousands of dollars per month</li></ul><ul id="26bee4a0-a520-4606-a79f-48b9565ecea6" class="bulleted-list"><li style="list-style-type:disc">revamped big chunks of the system, like an entire ad auction system, to make them faster and clearer to enable further development</li></ul><ul id="083a9ea1-0fa2-453e-a8fb-952aea0dbcd4" class="bulleted-list"><li style="list-style-type:disc">implemented eCPM prediction engine that raised revenues by 20% and reduced supply usage for predict learning by 30% by eliminating some loopholes</li></ul><ul id="785471cb-bbbe-49d6-be19-a73a873ed228" class="bulleted-list"><li style="list-style-type:disc">implemented context targeting system in a week without new hardware resources</li></ul><p id="6e33769d-ad7c-48ec-a6b6-7658b80ae70f" class="">
+</p><p id="da33e4b9-01d5-482d-b18b-36720ba179b7" class=""><strong>Perl developer</strong></p><p id="cd66475a-06ab-4cca-a09f-619cf16047d8" class="">Yandex</p><p id="1e608633-118a-4d69-beeb-7245b960d8fe" class="">Nov 2010 - Feb 2011</p><p id="c72cd3e1-3756-4f64-8ad5-9d2f2280bda3" class="">I worked on the Direct, system for creating and managing contextual search ads in the Yandex search engine. Then we got funding for our startup, and I left.</p><ul id="e5b2a3d1-1f86-414b-86b7-b34c1e31da27" class="bulleted-list"><li style="list-style-type:disc">changed client report generation from on-the-fly to queued to get rid of timeouts and be able to generate bigger reports</li></ul><ul id="1cf319b5-d867-474c-b87f-530a671b4ef0" class="bulleted-list"><li style="list-style-type:disc">implemented “targeted phones” feature to measure ads effectiveness</li></ul><ul id="753a1589-40c4-4234-a9df-59f93d8c15c5" class="bulleted-list"><li style="list-style-type:disc">participated in the development of geo-targeted ads </li></ul><p id="5e5d1023-5f3f-476b-a43f-60a84ed790dd" class="">
+</p><p id="9f343339-c69e-4729-ad62-568a655c9ca3" class=""><strong>Perl developer</strong></p><p id="4a382a59-f5b0-489f-a659-7525116a8729" class="">Parallels</p><p id="9fb34b19-a45d-4e42-9c30-de4e5f60d7fc" class="">Aug 2010 - Oct 2010</p><p id="3fd12737-0773-4767-a21e-058d0832a44f" class="">I worked on a shared hosting management system, PBAS 4.0, but decided that I&#x27;m more interested in developing end-user services.</p><p id="3817acef-dd6a-40d3-bf24-55026a98c2f1" class="">
+</p><p id="2f0a39c3-2ddc-4aaf-a58d-f9efe3785c63" class=""><strong>Senior Perl developer</strong></p><p id="b07f2844-8f28-4932-9908-f443f6d15e90" class="">Web Prime Group</p><p id="14c86500-7422-48b6-b480-81d8ce6dfd92" class="">Mar 2010 - Jul 2010</p><p id="efd1b53c-488b-4c3d-8909-dd0670054a3a" class="">I was tasked with the creation of a culinary social network, but management changed and the project was scrapped.</p><ul id="83f5b023-19af-42b1-8003-ee2bcd6e5300" class="bulleted-list"><li style="list-style-type:disc">had experience building full-text and geo search</li></ul><p id="086e753a-0002-45f7-bb2d-8588e3de2486" class="">
+</p><p id="80d7ba3c-89aa-4a14-8e0e-70cff35380b8" class=""><strong>Perl developer</strong></p><p id="03dc4bd0-9a27-4010-bfac-e98e5d767471" class=""><a href="http://Mail.Ru">Mail.Ru</a> Group</p><p id="1e48ce6a-b47d-4ba3-a080-e9307b847b9d" class="">Jun 2007 - Mar 2010</p><p id="2124fb56-8b9d-4d55-bc1d-d17506957e22" class="">My first serious gig as a developer. I have a funny story about how I got there, and I didn’t know Perl at all (only some PHP), but I learned quickly. I participated in the development of <a href="http://my.mail.ru">my.mail.ru</a> - the third Russian social network, <a href="http://blogs.mail.ru">blogs.mail.ru</a> - a blogging platform that we almost made a leader in the market, and <a href="http://api.mail.ru">api.mail.ru</a> - API for social games on the my.mail.ru platform.</p><ul id="5cc95283-8a57-4b0a-8c1a-9c64e8967f35" class="bulleted-list"><li style="list-style-type:disc">learned to work with high load</li></ul><ul id="816fa550-5ef8-44c2-b7b3-b74576d9f8f1" class="bulleted-list"><li style="list-style-type:disc">developed a new platform for <a href="http://api.mail.ru">api.mail.ru</a> with an order of magnitude better performance</li></ul><ul id="3d5b9ecf-9940-49c5-b7ea-4502894d773a" class="bulleted-list"><li style="list-style-type:disc">developed “Facebook share” alike feature</li></ul><p id="5aab66bc-dd50-49ee-9a26-037ea568b768" class="">
+</p><h3 id="183aa7e6-98f6-486b-93d3-7a59ab647b11" class=""><strong>Skills</strong></h3><ul id="9d7bd195-92e0-4f08-af3d-f6217f020e92" class="bulleted-list"><li style="list-style-type:disc">Perl, SQL, JavaScript</li></ul><ul id="a7813f4b-a788-4dc7-8f3d-b8aebe029ac3" class="bulleted-list"><li style="list-style-type:disc">Git</li></ul><ul id="2c9f1cc9-3e10-4104-a399-3e2f81ab147b" class="bulleted-list"><li style="list-style-type:disc">PostgreSQL - designing data schema, optimizing queries, performance tuning</li></ul><ul id="40f2339e-ad30-4b53-ab55-eb3b3cb8edec" class="bulleted-list"><li style="list-style-type:disc">ClickHouse</li></ul><ul id="a0ec42ae-b6df-49ff-8345-96fd12d73f3c" class="bulleted-list"><li style="list-style-type:disc">little Go</li></ul><ul id="e2815ad4-624a-4ed6-a359-9a7424be5e9a" class="bulleted-list"><li style="list-style-type:disc">Linux - basic commands, bash</li></ul><ul id="8c04e279-d6c7-4b14-8d79-2b5301c6823c" class="bulleted-list"><li style="list-style-type:disc">Memcached, Redis</li></ul><ul id="277c902b-176e-40c3-9ae1-dd7ae853c658" class="bulleted-list"><li style="list-style-type:disc">Graphite, Grafana, Graylog</li></ul><p id="3c4dd798-4416-447c-9d86-ae8d2e2feb72" class="">
+</p><h3 id="b7b99c00-8a83-4c81-b711-aa160b4a34e2" class="">Education</h3><p id="95597571-1273-4ba0-a86c-7648f7a698ba" class="">Specialist degree at National Research Nuclear University &quot;MEPhI&quot; (5.5 years)
+Experimental nuclear physics faculty
+Grade average: above 90%</p><p id="1615ed52-6af7-410c-8b63-36666eed1a05" class="">
+</p><h3 id="e9260726-58fa-4351-97d7-b6c970cc82cb" class=""><strong>Languages</strong></h3><p id="6e8f0802-15e2-410d-8e5b-a6edcc2c7e85" class="">Russian (native), English (advanced)</p><p id="bb60b541-1769-4ee1-b3ee-56c807cf3fb0" class="">
+</p><h3 id="6c06cf59-ef23-420a-8e19-523e4102d18e" class=""><strong>Certifications</strong></h3><ul id="f3aa4fd5-dc41-4608-be3c-14254d9c9da6" class="bulleted-list"><li style="list-style-type:disc"><a href="https://www.coursera.org/course/ml">Machine Learning</a></li></ul><ul id="a217f3fc-c165-4cbb-b366-35b44b7e0afc" class="bulleted-list"><li style="list-style-type:disc"><a href="https://www.coursera.org/course/pgm">Probabilistic Graphical Models</a></li></ul><ul id="70d7e995-d389-4d47-98a1-a9c9d32af81d" class="bulleted-list"><li style="list-style-type:disc"><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis, Part 1 &amp; Part 2</a></li></ul><p id="e5bcc8af-c288-4dae-ad3a-7b02d5ccf5cb" class="">
+</p><p id="74a3f405-7be8-4a05-bc39-342541f4f892" class="">
+</p></div></article></body></html>
