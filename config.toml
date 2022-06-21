@@ -16,7 +16,7 @@ hasCJKLanguage = true
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
     description = """
-        CTO, Perl/Go developer, Russian emigrant
+        CTO, startup co-founder, Perl/Go developer, Russian emigrant
     """
     publicationYear = "2022"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
