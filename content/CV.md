@@ -167,6 +167,7 @@ Russian (native), English (advanced)
 
 ### Certifications
 
+- [Stratoplan Team Management education](https://skaur.us/stratoplan.pdf)
 - [Machine Learning](https://www.coursera.org/course/ml)
 - [Probabilistic Graphical Models](https://www.coursera.org/course/pgm)
 - [Algorithms: Design and Analysis, Part 1 & Part 2](https://www.coursera.org/course/algo)
