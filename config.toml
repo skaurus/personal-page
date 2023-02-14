@@ -18,7 +18,7 @@ hasCJKLanguage = true
     description = """
         CTO, startup co-founder, Perl/Go developer, Russian emigrant
     """
-    publicationYear = "2022"
+    publicationYear = "2023"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
     # custom_css = ["/css/custom.css"]
