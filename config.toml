@@ -16,7 +16,7 @@ hasCJKLanguage = false
     avatarURL = "/img/avatar-cropped.jpg"
     author = "Dmitry Shalashov"
     description = """
-        CTO, startup co-founder, Perl/Go developer, Russian emigrant
+        Startup co-founder & CTO / Team lead / Backend senior developer
     """
     socialIcons = [
         {name = "linkedin", url = "https://www.linkedin.com/in/skaurus/"},

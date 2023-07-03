@@ -4,8 +4,6 @@ date: 2023-07-03
 draft: false
 ---
 
-# CV
-
 Dmitry Shalashov  
 Startup co-founder & CTO / Team lead / Go, Perl (or ready to learn smth new) senior developer
 &nbsp;  
@@ -69,7 +67,7 @@ Surfingbird was our first project. It was a personal recommendation system, like
 
 Both projects were fun to work on, significantly because we had to solve technical challenges using very modest resources.
 
-Relap took most of the Russian market share, and successfully fought off rivals like Taboola, Outbrain, Plista, Giraffe, Mail.Ru, and Yandex.
+Relap took most of the Russian market share, and successfully fought off rivals like Taboola, Outbrain, Plista, Giraff.io, myWidget by Mail.Ru, and [recommendation widget](https://yandex.ru/support/partner/web/recommendation-widget/about.html?lang=en) from Yandex.
 
 I’m especially proud of the great team retention and working atmosphere.
 
