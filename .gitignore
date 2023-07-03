@@ -1,0 +1,7 @@
+*.o
+*.a
+*.so
+*.exe
+.idea
+.DS_Store
+.hugo_build.lock

@@ -1,8 +1,10 @@
-baseurl = "https://skaur.us/"
-title = "Dmitry Shalashov's personal page"
-theme = ["md-more-like-notion", "all-links-newtab", "pulp"]
+baseurl = "https://skaur.us"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Dmitry Shalashov"
+theme = "gokarna"
 canonifyurls = true
-hasCJKLanguage = true
+hasCJKLanguage = false
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
 # googleAnalytics = "{your tracking code}"
@@ -11,14 +13,19 @@ hasCJKLanguage = true
     unsafe = true # Allow user HTML tags
 
 [params]
+    avatarURL = "/img/avatar-cropped.jpg"
     author = "Dmitry Shalashov"
-    avatar = "avatar-cropped.jpg"
-    # avatarDescription = "My avatar description"
-    favicon = "favicon.ico"
     description = """
         CTO, startup co-founder, Perl/Go developer, Russian emigrant
     """
-    publicationYear = "2023"
+    socialIcons = [
+        {name = "linkedin", url = "https://www.linkedin.com/in/skaurus/"},
+        {name = "readdotcv", url = "/cv"},
+        {name = "github", url = "https://github.com/skaurus"},
+        {name = "telegram", url = "https://t.me/beeblebrox"},
+        {name = "gmail", url = "mailto:skaurus@gmail.com"},
+    ]
+    footer = "Dmitry Shalashov"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
     # custom_css = ["/css/custom.css"]
@@ -28,43 +35,3 @@ hasCJKLanguage = true
 [outputs]
     section = ["JSON", "HTML"]
     term = ["JSON", "HTML"]
-
-[[menu.main]]
-    identifier = 'linkedin'
-    title = 'Linkedin'
-    # name = 'Blog' #If display text link, cancel comment out
-    pre = '<i class="fab fa-brands fa-linkedin-in"></i>' #Choose your favorite font from Font Awesome
-    url = 'https://www.linkedin.com/in/skaurus/'
-    weight = 10
-
-[[menu.main]]
-    identifier = 'cv'
-    title = 'CV'
-    # name = 'CV'
-    pre = '<i class="fa fa-thin fa-code"></i>'
-    url = '/cv'
-    weight = 20
-
-[[menu.main]]
-    identifier = 'github'
-    title = 'Github'
-    # name = 'GitHub'
-    pre = '<i class="fab fa-github fa-lg"></i>'
-    url = 'https://github.com/skaurus'
-    weight = 30
-
-[[menu.main]]
-    identifier = 'telegram'
-    title = 'Telegram'
-    # name = 'Telegram'
-    pre = '<i class="fab fa-brands fa-telegram"></i>'
-    url = 'https://t.me/beeblebrox'
-    weight = 40
-
-[[menu.main]]
-    identifier = 'email'
-    title = 'Email'
-    # name = 'Email'
-    pre = '<i class="fa fa-envelope fa-lg"></i>'
-    url = 'mailto:skaurus@gmail.com'
-    weight = 50
