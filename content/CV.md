@@ -1,19 +1,19 @@
 ---
 title: "CV"
-date: 2022-06-21
+date: 2023-07-03
 draft: false
 ---
 
 # CV
 
 Dmitry Shalashov  
-Startup co-founder & CTO / wannabe Go/Rust developer
+Startup co-founder & CTO / Team lead / Go, Perl (or ready to learn smth new) senior developer
 &nbsp;  
 &nbsp; 
 
 telegram [@beeblebrox](https://t.me/beeblebrox)  
 skaurus@gmail.com  
-phone +7 985 218 4242  
+phone +351 935 775 746  
 [https://www.linkedin.com/in/skaurus/](https://www.linkedin.com/in/skaurus/)
 &nbsp;  
 &nbsp;  
@@ -24,7 +24,7 @@ As a contributor, I can design and ship new complex features, creating new reven
 
 Created a great team at my startup and led it until an acquisition and beyond that. I ended up managing a team of about 70 people, but I felt more in my place managing 5-10 and writing code.
 
-I’d like to go back to that level (developer or a team lead), and also learn new skills. Right now my main language is Perl, so it is a little rusty 🙂
+I’d like to go back to that level (developer or a team lead), and also learn new skills. For many years my main language was Perl, now it's Go, also I touched few other technologies briefly. I'm open to any stack, if you're willing to hire me without the relevant experience.
 &nbsp;  
 &nbsp; 
 
