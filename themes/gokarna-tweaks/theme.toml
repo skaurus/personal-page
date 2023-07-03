@@ -1,0 +1,4 @@
+name = "Gokarna Tweaks by skaurus"
+description = """
+    1. made external sociallinks (see config.toml) to open in a new tab
+"""
