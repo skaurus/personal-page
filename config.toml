@@ -1,4 +1,4 @@
-baseurl = "https://skaur.us"
+baseurl = "https://skaur.us/"
 title = "Dmitry Shalashov's personal page"
 theme = ["md-more-like-notion", "all-links-newtab", "pulp"]
 canonifyurls = true
