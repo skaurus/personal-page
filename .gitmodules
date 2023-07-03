@@ -1,3 +1,6 @@
 [submodule "themes/pulp"]
 	path = themes/pulp
 	url = https://github.com/koirand/pulp.git
+[submodule "themes/gokarna"]
+	path = themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
