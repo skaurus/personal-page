@@ -1,9 +1,9 @@
-baseurl = "https://skaur.us"
+baseURL = "https://skaur.us"
 defaultContentLanguage = "en"
 languageCode = "en"
 title = "Dmitry Shalashov"
-theme = ["all-links-newtab", "gokarna-tweaks", "gokarna"]
-canonifyurls = true
+theme = ["external-links-newtab", "gokarna-tweaks", "gokarna"]
+canonifyURLs = true
 hasCJKLanguage = false
 # pygmentsCodefences = true
 # pygmentsUseClasses = true

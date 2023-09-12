@@ -1,0 +1,1 @@
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ $destInfo := urls.Parse .Destination }}{{ $baseURLInfo := urls.Parse site.BaseURL }}{{ if (and $destInfo.IsAbs (ne $destInfo.Hostname $baseURLInfo.Hostname)) }} target="_blank"{{ end }}>{{ .Text | safeHTML }}</a>
