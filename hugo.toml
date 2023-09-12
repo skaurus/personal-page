@@ -20,7 +20,7 @@ hasCJKLanguage = false
     """
     socialIcons = [
         {name = "linkedin", url = "https://www.linkedin.com/in/skaurus/"},
-        {name = "readdotcv", url = "/cv"},
+        {name = "readdotcv", url = "/cv/"},
         {name = "github", url = "https://github.com/skaurus"},
         {name = "telegram", url = "https://t.me/beeblebrox"},
         {name = "gmail", url = "mailto:skaurus@gmail.com"},
