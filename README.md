@@ -1,1 +1,1 @@
-My personal site, created with Hugo and Pulp theme.
+My personal site, created with Hugo and gokarna theme.
