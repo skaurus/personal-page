@@ -185,6 +185,7 @@ Russian (native), English (advanced), Portuguese (basic, learning right now)
 
 ### Certifications
 
+- [Yandex.Practicum Go Developer](https://skaur.us/yandex-go.pdf)
 - [Stratoplan Team Management education](https://skaur.us/stratoplan.pdf)
 - [Machine Learning](https://www.coursera.org/course/ml)
 - [Probabilistic Graphical Models](https://www.coursera.org/course/pgm)
