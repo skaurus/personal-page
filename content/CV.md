@@ -5,7 +5,7 @@ draft: false
 ---
 
 Dmitry Shalashov  
-Senior backend developer / engineering manager / co-founder & CTO | 15+ years of backend/architecture/product experience | 1 exit
+Senior/staff backend developer / engineering manager | ex. co-founder & CTO | 15+ years of backend/architecture/product experience | 1 exit
 &nbsp;  
 &nbsp;  
 
@@ -71,7 +71,7 @@ They included:
 - salary and hardware budgeting
 - finding resources
 - just a general problem-solving
-- also, I developed an architecture for a new type of advertising that required integration between three services, with tens of thousands of dollars in revenue per month
+- also, I developed an architecture for a new type of advertising that required integration between three services, with eventual revenue per month in hundreds of thousands of dollars
 
 I did mostly fine, but it was not fun at all.
 
