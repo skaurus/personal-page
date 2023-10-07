@@ -22,7 +22,7 @@ As a contributor, I can design and ship new complex features, creating new reven
 
 Created a great team at my startup and led it until an acquisition and beyond that. I ended up managing close to 100 people in three projects, but I felt more in my place managing 5-10 and writing code.
 
-I’d like to go back to that level (developer or a tech/team lead), and also learn new skills. For many years my main language was Perl, now it's Go, also I touched few other technologies briefly. I'm open to other backend languages as well, if you're willing to hire me without the relevant experience. I would say "yes" to Kotlin, Python, Typescript, Rust, Elixir, Clojure, Erlang. I would say "no" to, among popular languages, Scala. Ask about others!
+I’d like to go back to that level (developer or a tech/team lead), and also learn new skills. For many years my main language was Perl, now it's Go, also I touched a few other technologies briefly. I'm open to other backend languages as well, if you're willing to hire me without the relevant experience. I would say "yes" to Kotlin, Python, Typescript, Rust, Elixir, Clojure, Erlang. I would say "no" to, among popular languages, Scala. Ask about others!
 &nbsp;  
 &nbsp; 
 
@@ -159,7 +159,7 @@ Grade average: above 90%
 
 ### Languages
 
-Russian (native), English (advanced)
+Russian (native), English (advanced), Portuguese (basic, learning right now)
 &nbsp;  
 &nbsp; 
 
