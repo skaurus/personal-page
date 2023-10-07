@@ -1,11 +1,11 @@
 ---
 title: "CV"
-date: 2023-07-03
+date: 2023-10-07
 draft: false
 ---
 
 Dmitry Shalashov  
-Startup co-founder & CTO / Team lead / Go, Perl (or ready to learn smth new) senior developer
+Backend developer / engineering manager / co-founder & CTO | 15+ years of backend/architecture/product experience | 1 exit
 &nbsp;  
 &nbsp; 
 
@@ -20,9 +20,9 @@ Involved, hands-on, informal, like to leave everything better than it was, enjoy
 
 As a contributor, I can design and ship new complex features, creating new revenue streams for the company from scratch. As a leader, I care about the people and am humble, empathic, patient, and kind. My goal is to teach and then not get in the way.
 
-Created a great team at my startup and led it until an acquisition and beyond that. I ended up managing a team of about 70 people, but I felt more in my place managing 5-10 and writing code.
+Created a great team at my startup and led it until an acquisition and beyond that. I ended up managing close to 100 people in three projects, but I felt more in my place managing 5-10 and writing code.
 
-I’d like to go back to that level (developer or a team lead), and also learn new skills. For many years my main language was Perl, now it's Go, also I touched few other technologies briefly. I'm open to any stack, if you're willing to hire me without the relevant experience.
+I’d like to go back to that level (developer or a tech/team lead), and also learn new skills. For many years my main language was Perl, now it's Go, also I touched few other technologies briefly. I'm open to other backend languages as well, if you're willing to hire me without the relevant experience. I would say "yes" to Kotlin, Python, Typescript, Rust, Elixir, Clojure, Erlang. I would say "no" to, among popular languages, Scala. Ask about others!
 &nbsp;  
 &nbsp; 
 
@@ -32,7 +32,7 @@ I’d like to go back to that level (developer or a team lead), and also learn n
 
 Recsystems division of VK Group (former [Mail.Ru](http://Mail.Ru) Group)
 
-Jun 2019 - current time
+Jun 2019 — Mar 2023
 
 To be precise, Recsystems in the context of VK means Relap.io, [Pulse.Mail.Ru](http://Pulse.Mail.Ru) (Yandex.Zen rival), and Mediaprojects divisions of VK.
 
@@ -44,16 +44,16 @@ They included:
 
 - building processes like review 360
 - building relationships between people and teams
-- a lot of negotiations - between projects, with other VK divisions, external suppliers
+- a lot of negotiations — between projects, with other VK divisions, external suppliers
 - growth of my reports
 - salary and hardware budgeting
 - finding resources
 - just a general problem-solving
-- also, I architectured a new ad type that required integration between three services, with revenue of tens of thousands of dollars per month
+- also, I developed an architecture for a new type of advertising that required integration between three services, with tens of thousands of dollars in revenue per month
 
 I did mostly fine, but it was not fun at all.
 
-Relap and Pulse both multiplied their traffic and revenue a few times over. For Mediaprojects, it is too early to say.
+Relap and Pulse both multiplied their traffic and revenue a few times over during our time at VK.
 &nbsp;  
 &nbsp; 
 
@@ -61,11 +61,11 @@ Relap and Pulse both multiplied their traffic and revenue a few times over. For 
 
 Surfingbird
 
-Mar 2011 - Jun 2019
+Mar 2011 — Jun 2019
 
-Surfingbird was our first project. It was a personal recommendation system, like StumbleUpon. In 2014 we created a side project - Relap, a recommendation system for publishers, like Taboola. This project took off like a hockey stick and since then we worked only on it.
+Surfingbird was our first project. It was a personal recommendation system, like StumbleUpon. In 2014, we created a side project — Relap, a recommendation system for publishers, like Taboola. This project took off like a hockey stick, and since then we worked only on it.
 
-Both projects were fun to work on, significantly because we had to solve technical challenges using very modest resources.
+Both projects were fun to work on, primarily because we had to solve technical challenges using very modest resources.
 
 Relap took most of the Russian market share, and successfully fought off rivals like Taboola, Outbrain, Plista, Giraff.io, myWidget by Mail.Ru, and [recommendation widget](https://yandex.ru/support/partner/web/recommendation-widget/about.html?lang=en) from Yandex.
 
@@ -75,16 +75,15 @@ Surfingbird was featured in [Russian Forbes](https://www.forbes.ru/tehnologii/in
 
 Relap was named one of the 100 hottest European startups by [Wired in 2015](https://www.wired.co.uk/article/100-hottest-european-startups-2015-moscow).
 
-In the end, it was acquired by [Mail.Ru](http://Mail.Ru) Group (now VK) where the management was obligated to work for 3 more years.
+In the end, it was acquired by [Mail.Ru](http://Mail.Ru) Group (now VK) where the management was obliged to stay for another 3.5 years.
 
-- under my leadership, we created the biggest native ad platform in Russia on a couple of dozens of servers, which also generated billions of content recommendations per month
+- under my leadership, we created the largest native advertising network in Eastern Europe, using only a couple dozen of servers, which also generated billions of content recommendations per month
 
 I personally:
-
-- made video ad platform from scratch with revenues of tens of thousands of dollars per month
+- made a video advertisement platform from scratch with tens of thousands of dollars in revenue per month
 - revamped big chunks of the system, like an entire ad auction system, to make them faster and clearer to enable further development
-- implemented eCPM prediction engine that raised revenues by 20% and reduced supply usage for predict learning by 30% by eliminating some loopholes
-- implemented context targeting system in a week without new hardware resources
+- implemented eCPM prediction engine that raised revenues by 20% and then reduced the supply required for this engine training by 30% by eliminating some loopholes
+- implemented a basic contextual targeting system in a week without new hardware resources
 &nbsp;  
 &nbsp; 
 
@@ -92,12 +91,12 @@ I personally:
 
 Yandex
 
-Nov 2010 - Feb 2011
+Nov 2010 — Feb 2011
 
 I worked on the Direct, system for creating and managing contextual search ads in the Yandex search engine. Then we got funding for our startup, and I left.
 
 - changed client report generation from on-the-fly to queued to get rid of timeouts and be able to generate bigger reports
-- implemented “targeted phones” feature to measure ads effectiveness
+- implemented “targeted phones” feature to measure advertisement effectiveness
 - participated in the development of geo-targeted ads
 &nbsp;  
 &nbsp; 
@@ -106,7 +105,7 @@ I worked on the Direct, system for creating and managing contextual search ads i
 
 Parallels
 
-Aug 2010 - Oct 2010
+Aug 2010 — Oct 2010
 
 I worked on a shared hosting management system, PBAS 4.0, but decided that I'm more interested in developing end-user services.
 &nbsp;  
@@ -116,7 +115,7 @@ I worked on a shared hosting management system, PBAS 4.0, but decided that I'm m
 
 Web Prime Group
 
-Mar 2010 - Jul 2010
+Mar 2010 — Jul 2010
 
 I was tasked with the creation of a culinary social network, but management changed and the project was scrapped.  
 - had experience building full-text and geo search
@@ -127,9 +126,9 @@ I was tasked with the creation of a culinary social network, but management chan
 
 [Mail.Ru](http://Mail.Ru) Group
 
-Jun 2007 - Mar 2010
+Jun 2007 — Mar 2010
 
-My first serious gig as a developer. I have a funny story about how I got there, and I didn’t know Perl at all (only some PHP), but I learned quickly. I participated in the development of [my.mail.ru](http://my.mail.ru) - the third Russian social network, [blogs.mail.ru](http://blogs.mail.ru) - a blogging platform that we almost made a leader in the market, and [api.mail.ru](http://api.mail.ru) - API for social games on the my.mail.ru platform.
+My first serious gig as a developer. I have a funny story about how I got there, and I didn’t know Perl at all (only some PHP), but I learned quickly. I participated in the development of [my.mail.ru](http://my.mail.ru) — the third Russian social network, [blogs.mail.ru](http://blogs.mail.ru) — a blogging platform that we almost made a leader in the market, and [api.mail.ru](http://api.mail.ru) — API for social games on the my.mail.ru platform.
 
 - learned to work with high load
 - developed a new platform for [api.mail.ru](http://api.mail.ru) with an order of magnitude better performance
@@ -139,13 +138,14 @@ My first serious gig as a developer. I have a funny story about how I got there,
 
 ### Skills
 
-- Perl, Go, SQL, JavaScript
-- Git
-- PostgreSQL - designing data schema, optimizing queries, performance tuning
+- Go, SQL, Perl, Javascript
+- PostgreSQL — designing data schema, optimizing queries, performance tuning
 - ClickHouse
-- Linux - basic commands, bash
 - Memcached, Redis
 - Graphite, Grafana, Graylog
+- Nginx
+- Git
+- Linux — command line, basic dev ops
 &nbsp;  
 &nbsp; 
 
