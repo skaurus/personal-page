@@ -5,7 +5,7 @@ draft: false
 ---
 
 Dmitry Shalashov  
-Backend developer / engineering manager / co-founder & CTO | 15+ years of backend/architecture/product experience | 1 exit
+Senior backend developer / engineering manager / co-founder & CTO | 15+ years of backend/architecture/product experience | 1 exit
 &nbsp;  
 &nbsp; 
 
@@ -28,6 +28,27 @@ I’d like to go back to that level (developer or a tech/team lead), and also le
 
 ### Experience
 
+**Lead Golang developer / volunteer**
+
+CyberPravda
+
+Mar 2023 — Oct 2023
+
+I was the lead (and only) backend developer of CyberPravda project prototype.
+
+CyberPravda is a project to help determine the most likely answer to any question. I liked the idea and decided to volunteer for them.
+
+What I did included:
+- renting the server
+- configuring non-root users and public SSH keys for them
+- setting up automatic updates, email sending, installing and configuring required software packages (Nginx, PostgreSQL, Neo4j, Golang, Node.js)
+  - also, I set up vim and tmux just for myself
+- setting up Let's Encrypt certificates
+- setting up GitHub Actions (triggered by git tags in a specific format) to run Ansible playbooks that deploy the code - web backend, queue backend, frontend
+- web backend and queue applications themselves
+- communicating with the founders and frontend developers
+- some mentoring
+
 **CTO**
 
 Recsystems division of VK Group (former [Mail.Ru](http://Mail.Ru) Group)
@@ -41,7 +62,6 @@ Pulse.Mail.Ru was transferred to our team management as part of the acquisition 
 The size of my team initially doubled, and then grew even more, and my responsibilities changed drastically, from an acting coach to a proper manager. It wasn't easy.
 
 They included:
-
 - building processes like review 360
 - building relationships between people and teams
 - a lot of negotiations — between projects, with other VK divisions, external suppliers
