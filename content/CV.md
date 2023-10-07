@@ -7,7 +7,7 @@ draft: false
 Dmitry Shalashov  
 Senior backend developer / engineering manager / co-founder & CTO | 15+ years of backend/architecture/product experience | 1 exit
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 telegram [@beeblebrox](https://t.me/beeblebrox)  
 skaurus@gmail.com  
@@ -24,7 +24,7 @@ Created a great team at my startup and led it until an acquisition and beyond th
 
 I’d like to go back to that level (developer or a tech/team lead), and also learn new skills. For many years my main language was Perl, now it's Go, also I touched a few other technologies briefly. I'm open to other backend languages as well, if you're willing to hire me without the relevant experience. I would say "yes" to Kotlin, Python, Typescript, Rust, Elixir, Clojure, Erlang. I would say "no" to, among popular languages, Scala. Ask about others!
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 ### Experience
 
@@ -48,6 +48,8 @@ What I did included:
 - web backend and queue applications themselves
 - communicating with the founders and frontend developers
 - some mentoring
+&nbsp;  
+&nbsp;  
 
 **CTO**
 
@@ -75,7 +77,7 @@ I did mostly fine, but it was not fun at all.
 
 Relap and Pulse both multiplied their traffic and revenue a few times over during our time at VK.
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 **CTO**
 
@@ -105,7 +107,7 @@ I personally:
 - implemented eCPM prediction engine that raised revenues by 20% and then reduced the supply required for this engine training by 30% by eliminating some loopholes
 - implemented a basic contextual targeting system in a week without new hardware resources
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 **Perl developer**
 
@@ -119,7 +121,7 @@ I worked on the Direct, system for creating and managing contextual search ads i
 - implemented “targeted phones” feature to measure advertisement effectiveness
 - participated in the development of geo-targeted ads
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 **Perl developer**
 
@@ -129,7 +131,7 @@ Aug 2010 — Oct 2010
 
 I worked on a shared hosting management system, PBAS 4.0, but decided that I'm more interested in developing end-user services.
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 **Senior Perl developer**
 
@@ -140,7 +142,7 @@ Mar 2010 — Jul 2010
 I was tasked with the creation of a culinary social network, but management changed and the project was scrapped.  
 - had experience building full-text and geo search
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 **Perl developer**
 
@@ -154,7 +156,7 @@ My first serious gig as a developer. I have a funny story about how I got there,
 - developed a new platform for [api.mail.ru](http://api.mail.ru) with an order of magnitude better performance
 - developed “Facebook share” alike feature
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 ### Skills
 
@@ -167,7 +169,7 @@ My first serious gig as a developer. I have a funny story about how I got there,
 - Git
 - Linux — command line, basic dev ops
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 ### Education
 
@@ -175,13 +177,13 @@ Specialist degree at National Research Nuclear University "MEPhI" (5.5 years)
 Experimental nuclear physics faculty
 Grade average: above 90%
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 ### Languages
 
 Russian (native), English (advanced), Portuguese (basic, learning right now)
 &nbsp;  
-&nbsp; 
+&nbsp;  
 
 ### Certifications
 
