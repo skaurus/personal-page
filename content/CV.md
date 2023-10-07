@@ -41,7 +41,7 @@ CyberPravda is a project to help determine the most likely answer to any questio
 What I did included:
 - renting the server
 - configuring non-root users and public SSH keys for them
-- setting up automatic updates, email sending, installing and configuring required software packages (Nginx, PostgreSQL, Neo4j, Golang, Node.js)
+- setting up automatic updates, email sending (postfix, SPF, DMARC, DKIM), installing and configuring required software packages (Nginx, PostgreSQL, Neo4j, Golang, Node.js)
   - also, I set up vim and tmux just for myself
 - setting up Let's Encrypt certificates
 - setting up GitHub Actions (triggered by git tags in a specific format) to run Ansible playbooks that deploy the code - web backend, queue backend, frontend
