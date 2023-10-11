@@ -173,8 +173,8 @@ My first serious gig as a developer. I have a funny story about how I got there,
 
 ### Education
 
-Specialist degree at National Research Nuclear University "MEPhI" (5.5 years)
-Experimental nuclear physics faculty
+Specialist degree at National Research Nuclear University "MEPhI" (5.5 years)  
+Experimental nuclear physics faculty  
 Grade average: above 90%
 &nbsp;  
 &nbsp;  
